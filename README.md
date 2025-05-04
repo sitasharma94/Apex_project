@@ -1,8 +1,16 @@
-A front-end web application for a shopping website that includes product browsing, user sign-in/sign-up, and a shopping cart system. Built using HTML, CSS, and JavaScript.
-Browse items in a shop interface (shop.html)
+ Apex Project
 
-Add/remove products to/from a shopping cart (cart.html)
+A front-end web application for a shopping platform. It allows users to browse products, sign in or sign up, and manage items in a shopping cart. Built using HTML, CSS, and JavaScript.
 
-User authentication: Sign in and sign up pages
+Features
 
-Responsive design for multiple screen sizes
+- Responsive UI for shop and product pages
+- Add/remove items in the shopping cart
+- User sign-in and sign-up functionality
+- Clean modular file structure
+
+ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
