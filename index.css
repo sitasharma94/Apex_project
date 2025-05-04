@@ -1,0 +1,230 @@
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  margin-right: 20vh;
+  font-size: 28px;
+}
+
+a {
+  color: tan;
+  text-decoration: none;
+  font-size: 25px;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+li:hover {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.hero h1 {
+  font-size: 50px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.hero button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.hero button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.product-image {
+  width: 19.5vw;
+  height: 30vw;
+  border: 1px solid #ccc;
+  border-radius: 3%;
+}
+.product-grid-1,
+.product-grid-2,
+.product-grid-3,
+.product-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-bottom: 8%;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.product h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.product p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.product button {
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.product button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.products h2 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-top: 50px;
+  background-color: #f9f9f9;
+}
+.about h3 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.about blockquote {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #333;
+  padding: 20px;
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+footer p {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+footer a {
+  color: tan;
+  text-decoration: none;
+  font-size: 25px;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+@media (max-width: 1024px) {
+  li {
+    margin-right: 5%;
+    font-size: 1.5rem;
+  }
+
+  .product-image {
+    width: 28%;
+    height: auto;
+  }
+
+  .product-grid-1,
+  .product-grid-2,
+  .product-grid-3,
+  .product-grid-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.25rem;
+  }
+  .products button
+  {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    text-align: center;
+  }
+
+  li {
+    display: block;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+
+  .product-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .product-grid-1,
+  .product-grid-2,
+  .product-grid-3,
+  .product-grid-4 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p,
+  .about p,
+  .about blockquote {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  footer p,
+  footer a {
+    font-size: 1.2rem;
+  }
+  
+  .products button
+  {
+    font-size: 1rem;
+  }
+}
+
